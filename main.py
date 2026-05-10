@@ -9,5 +9,5 @@ server = smtplib.SMTP("smtp.gmail.com", 587)
 server.starttls()
 server.login(sender_email, "your_account_id")
 
-for j in range(len(receiver_emails)):
-        server.sendmail(sender_email, receiver_emails[j], message)
+for email in receiver_emails:
+        server.sendmail(sender_email, email, message)
