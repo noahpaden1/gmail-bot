@@ -1,7 +1,7 @@
 import smtplib
 
-sender_email = "you@gmail.com"
-receiver_emails = ["recipient1@gmail.com","recipient2@outlook.com","recipient3@hotmail.com"]
+sender_email = "sender@gmail.com"
+receiver_emails = ["recipient1@outlook.com","recipient2@hotmail.com","recipient3@gmail.com"]
 
 message = f"Subject: insert_subject\n\ninsert_email_body"
 
